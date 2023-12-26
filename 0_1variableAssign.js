@@ -18,10 +18,10 @@ var pinCode="411033";
 var gender="Female";
 var isMarried="yes";
 
-console.log("FirstName", firstName);
+console.log("FirstName:", firstName);
 console.log("LastName:", lastname);
-console.log("age",age);
-console.log("Address",address);
-console.log("PinCode", pinCode);
-console.log("Gender",gender);
-console.log("Marital status",isMarried); 
+console.log("age:",age);
+console.log("Address:",address);
+console.log("PinCode:", pinCode);
+console.log("Gender:",gender);
+console.log("Marital status:",isMarried); 
