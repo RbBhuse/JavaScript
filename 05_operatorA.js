@@ -4,7 +4,7 @@ function squareWordLength(givenString) {
   var lengthOfWord = givenString.length;
   var squofLength = lengthOfWord * lengthOfWord;
   console.log(
-    `Length of word: ${lengthOfWord} and Squaere of length is${squofLength}`
+    `Length of word: ${lengthOfWord} and Square of length is${squofLength}`
   );
 }
 squareWordLength("JavaScript");
