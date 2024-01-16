@@ -79,5 +79,11 @@ const fruit_seasonalSeven = [
 console.log(`original Array value:${fruit_seasonalSeven}`);
 console.log(`Select last three element`);
 
-let result2 = fruit_seasonalSeven.slice(3);
-console.log(`Result: ${result2}`);
+/* result2 = fruit_seasonalSeven.slice(3);
+console.log(`Result: ${result2}`);*/
+
+for (let index = 2; index <= fruit_seasonalSeven.length-1; index++) {
+  let element = fruit_seasonalSeven[index];
+  console.log(element);
+}
+
