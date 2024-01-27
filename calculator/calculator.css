@@ -1,0 +1,80 @@
+.container {
+  height: 590px;
+  width: 500px;
+  border: 1px solid red;
+  margin: auto;
+  margin-top: 120px;
+  margin-left: 800px;
+  background-color: azure;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+h2 {
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+.inputFields label {
+  margin-left: 210px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputValue {
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  margin-left: 110px;
+  border-radius: 10px;
+  border: 1px solid red;
+  font-weight: bold;
+}
+.result {
+  margin-top: 30px;
+}
+#resultValue {
+  border: 1px solid red;
+  padding: 19px;
+  width: 240px;
+  margin-left: 110px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#resultText {
+  margin-left: 210px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  height: 50px;
+  width: 110px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+  color: black;
+  background-color: #66d9ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #008cba;
+}
+#reset {
+  display: block;
+  margin-top: 40px;
+  margin-left: 210px;
+
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 20px;
+}

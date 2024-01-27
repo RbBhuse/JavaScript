@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="./calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Calculator</h2>
+      <hr />
+      <div class="inputFields">
+        <br />
+        <label>Input one</label>
+        <input
+          type="number"
+          placeholder="Enter first value"
+          id="field-one"
+          class="inputValue"
+        />
+        <br />
+        <br /><label>Input Two</label
+        ><input
+          type="number"
+          placeholder="Enter second value"
+          name=""
+          id="field-two"
+          class="inputValue"
+        />
+      </div>
+
+      <div class="result">
+        <span id="resultText">Result</span> <span id="resultValue"></span>
+      </div>
+
+      <button type="submit" id="addition">Addition</button>
+      <button type="submit" id="substraction">Substraction</button>
+      <button type="submit" id="multiplication">Multiplication</button>
+      <button type="submit" id="division">Division</button>
+      <button type="reset" id="reset">Reset</button>
+    </div>
+  </body>
+</html>
