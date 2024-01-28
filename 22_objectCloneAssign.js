@@ -78,7 +78,7 @@ console.log(`Perform Deeep cloning usin "JSON Stringfy"`);
 
 
 const clonedObj = JSON.parse(JSON.stringify(employee_info));
-console.log(`=========== "A B C" ===========`);
+console.log(`\n =========== "A B C" ===========`);
 
 clonedObj.salary.july_month="80,000INR";
 employee_info.address.country="United Kingdom";
