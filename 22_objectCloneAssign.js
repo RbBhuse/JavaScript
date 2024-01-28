@@ -75,7 +75,7 @@ console.log(`Mobile Numbers: ${employee_info.mobiles}`);
 console.log(`===========step no:6===========`);
 
 console.log(`Perform Deeep cloning usin "JSON Stringfy"`);
-console.log(`===========step no:6.a===========`);
+
 
 const clonedObj = JSON.parse(JSON.stringify(employee_info));
 console.log(`=========== "A B C" ===========`);
